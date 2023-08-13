@@ -37,7 +37,7 @@ function Card({ img, id }) {
       className={`card${isClicked ? " opened" : ""}${find ? " matched" : ""}`}
       onClick={handleClick}
     >
-      <div className="front">{id}</div>
+      <div className="front">?</div>
       <div className="back">
         <img src={img} alt="" />
       </div>
